@@ -11,7 +11,7 @@ import org.mapstruct.Mappings;
 public interface QueryMapper {
 
     @Mappings({
-            @Mapping(source = "idConsulta", target = "QueryId"),
+            @Mapping(source = "idConsulta", target = "queryId"),
             @Mapping(source = "fecha", target = "date")
     })
     Query toQuery(Consulta consulta);

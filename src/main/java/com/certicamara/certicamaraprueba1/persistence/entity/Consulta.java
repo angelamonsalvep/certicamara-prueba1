@@ -1,5 +1,7 @@
 package com.certicamara.certicamaraprueba1.persistence.entity;
 
+import org.hibernate.annotations.CreationTimestamp;
+
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
@@ -12,6 +14,7 @@ public class Consulta {
     @Column(name = "id_consulta")
     private Integer idConsulta;
 
+    @CreationTimestamp
     private LocalDateTime fecha;
 
     public Integer getIdConsulta() {
