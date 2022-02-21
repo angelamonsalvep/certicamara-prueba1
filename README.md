@@ -27,4 +27,5 @@ La base de datos se encuentra desplegada en heroku.
 ## Ejecutando el proyecto
 
 Para probar la funcionalidad de la aplicación se debe acceder al siguiente enlace:
+https://certicamara-prueba1.herokuapp.com/certicamaraprueba1/api/
 
