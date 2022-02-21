@@ -19,9 +19,9 @@ Las tecnologías revisadas y que se usaron para este proyecto son:
 - Infraestructura -SpringBoot
 - PAAS - Heroku
 
-## Configuración de la base de datos
+## Despliegue de la aplicación y la base de datos
 
-La base de datos se encuentra desplegada en heroku.
+Se utilizó Heroku para desplegar la aplicación y la base de datos con postgresql.
 
 
 ## Ejecutando el proyecto
