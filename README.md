@@ -26,6 +26,11 @@ La base de datos se encuentra desplegada en heroku.
 
 ## Ejecutando el proyecto
 
-Para probar la funcionalidad de la aplicación se debe acceder al siguiente enlace:
-https://certicamara-prueba1.herokuapp.com/certicamaraprueba1/api/
+Para probar la funcionalidad de la aplicación se pueden usar los siguientes enlaces:
+-Ruta principal: https://certicamara-prueba1.herokuapp.com/certicamaraprueba1/api/
+-Ruta para ver el listado de personajes de anime depurado: https://certicamara-prueba1.herokuapp.com/certicamaraprueba1/api/queries/people
+
+
+
+
 
