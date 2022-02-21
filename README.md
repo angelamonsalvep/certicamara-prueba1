@@ -27,7 +27,9 @@ Se utilizó Heroku para desplegar la aplicación y la base de datos con postgres
 ## Ejecutando el proyecto
 
 Para probar la funcionalidad de la aplicación se pueden usar los siguientes enlaces:
+
 -Ruta principal: https://certicamara-prueba1.herokuapp.com/certicamaraprueba1/api/
+
 -Ruta para ver el listado de personajes de anime depurado: https://certicamara-prueba1.herokuapp.com/certicamaraprueba1/api/queries/people
 
 
