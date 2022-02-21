@@ -25,7 +25,6 @@ public class QueryController {
     public ResponseEntity<String> getCharacter() {
         String nameCharacter = depurarDatostoString();
         Query query = new Query();
-        queryService.save(query);
         try{
             queryService.save(query);//se guarda en la base de datos la consulta realizada a la API externa.
         } catch (Exception e){
@@ -39,7 +38,6 @@ public class QueryController {
     public ResponseEntity<List<Character>> getPeople() {
         List<Character> listaDepurada = depurarDatostoLista();
         Query query = new Query();
-        queryService.save(query);
         try{
             queryService.save(query);//se guarda en la base de datos la consulta realizada a la API externa.
         } catch (Exception e){
