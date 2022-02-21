@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/certicamara-prueba1-0.1.0.jar
+web: java -jar -Dspring.profiles.active=pdn build/libs/certicamara-prueba1-1.0.jar
