@@ -4,6 +4,7 @@
 
 Este proyecto es una aplicación en Spring Boot que se conecta al siguiente servicio externo REST.
 https://ghibliapi.herokuapp.com/people
+
 Este servicio devuelve una lista de personajes de Anime con sus respectivos datos.
 
 Esta aplicación manipula los datos recibidos del servicio externo y los retorna ya depurados al usuario, como respuesta a una petición Get que este realiza.
